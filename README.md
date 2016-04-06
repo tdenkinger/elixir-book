@@ -1,6 +1,5 @@
 # Issues
-
-**TODO: Add description**
+This is the Issues project from Dave Thomas' _Programming Elixir_.
 
 ## Installation
 
