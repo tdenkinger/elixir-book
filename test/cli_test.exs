@@ -16,4 +16,8 @@ defmodule CliTest do
   test "count returns default when none is given" do
     assert parse_args(["user", "project"]) == {"user", "project", 4}
   end
+
+  test "asking for help returns usage information" do
+    assert process(:help) == "usage"
+  end
 end
